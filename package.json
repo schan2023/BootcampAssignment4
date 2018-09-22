@@ -2,10 +2,21 @@
   "name": "Assignment4",
   "version": "1.0.0",
   "description": "Routing server-side requests using ExpressJS",
+  "scripts": {
+  "ng": "ng",
+  "start": "node server.js",
+  "build": "ng build",
+  "test": "ng test",
+  "lint": "ng lint",
+  "e2e": "ng e2e",
+  "postinstall": "ng build --output-path dist"
+  },
   "main": "server.js",
   "author": "Medhir Bhargava",
   "license": "MIT",
   "dependencies": {
+    "@angular/cli": "^6.2.3",
+    "@angular/compiler-cli": "^6.1.8",
     "body-parser": "^1.14.1",
     "express": "^4.16.3",
     "mongoose": "^4.2.9",

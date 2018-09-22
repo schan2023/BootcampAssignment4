@@ -1,16 +1,10 @@
 {
   "name": "Assignment4",
   "version": "1.0.0",
-  "description": "Routing server-side requests using ExpressJS",
-  "scripts": {
-  "ng": "ng",
-  "start": "node server.js",
-  "build": "ng build",
-  "test": "ng test",
-  "lint": "ng lint",
-  "e2e": "ng e2e",
-  "postinstall": "ng build --output-path dist"
+  "engines": {
+    "node": "8.9.4"
   },
+  "description": "Routing server-side requests using ExpressJS",
   "main": "server.js",
   "scripts": {
   "ng": "ng",

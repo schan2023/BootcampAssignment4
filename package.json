@@ -5,8 +5,7 @@
     "node": "8.9.4"
   },
   "scripts": {
-  "start": "node server.js",
-  "postinstall": "npm run build"
+  "start": "node server.js"
   },
   "author": "Medhir Bhargava",
   "license": "MIT",
